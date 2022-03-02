@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Dancing;
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -21,8 +26,30 @@ main {
 }
 
 #image-sidebar {
-    background-image: url("/sign-up-form/images/thom-milkovic-JlychiktSB8-unsplash.jpg");
+    background-image: url(../images/thom-milkovic-JlychiktSB8-unsplash.jpg);
+    background-color: black;
     background-size: auto;
     background-position: center;
+    background-repeat: no-repeat;
     width: 30vw;
+    position: relative;
+}
+
+#logo-holder {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Dancing', sans-serif;
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 2rem;
+    top: calc(10rem + 5vh);
+}
+
+#logo-holder img {
+    max-width: 100%;
 }
