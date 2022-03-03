@@ -25,7 +25,7 @@ main {
     justify-content: center;
 }
 
-#image-sidebar {
+#sidebar {
     background-image: url(../images/thom-milkovic-JlychiktSB8-unsplash.jpg);
     background-color: black;
     background-size: cover;
@@ -33,9 +33,12 @@ main {
     background-repeat: no-repeat;
     width: 30vw;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-#logo-holder {
+#logo-container {
     position: absolute;
     width: 100%;
     display: flex;
@@ -44,12 +47,23 @@ main {
     background-color: rgba(255, 255, 255, 0.6);
     font-family: 'Dancing', sans-serif;
     font-size: 4rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
     top: calc(10rem + 5vh);
 }
 
-#logo-holder img {
+#logo-container img {
     max-width: 100%;
+}
+
+#sidebar-footer {
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#sidebar-footer a {
+    color: rgb(0, 104, 35)
 }
