@@ -28,7 +28,7 @@ main {
 #image-sidebar {
     background-image: url(../images/thom-milkovic-JlychiktSB8-unsplash.jpg);
     background-color: black;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 30vw;
