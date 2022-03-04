@@ -59,6 +59,7 @@ main {
 }
 
 #logo-container img {
+    display: flex;
     max-width: 100%;
 }
 
