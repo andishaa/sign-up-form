@@ -5,6 +5,7 @@
 
 :root {
     --main-color: rgb(0, 104, 35);
+    --red: rgb(209, 0, 0);
 }
 
 * {
@@ -117,6 +118,10 @@ main {
     box-shadow: 0.4rem 0.4rem 6px #d8dadd;
 }
 
+.form-wrapper input:focus:invalid {
+    outline: 0.1rem solid var(--red);
+}
+
 .form-wrapper label {
     padding-bottom: 0.2rem;
 }
@@ -124,6 +129,18 @@ main {
 .form-header {
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.error {
+    outline: 0.1rem solid var(--red);
+}
+
+.form-row.pass::after {
+    content: "*Passwords do not match";
+    margin-top: 0.1rem;
+    text-transform: none;
+    font-weight: normal;
+    color: var(--red);
 }
 
 .header-text,
