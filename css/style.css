@@ -119,9 +119,15 @@ main {
 #createAccBtn {
     padding: 0.9rem 3rem;
     border-radius: 8px;
-    color: white;
-    background-color: var(--main-color);
-    border: none;
+    color: var(--main-color);
+    border: 0.2rem solid var(--main-color);
     font-weight: bold;
     margin-top: 3vh;
+    cursor: pointer;
+}
+
+#createAccBtn:hover {
+    color: white;
+    background-color: var(--main-color);
+    font-weight: bold;
 }
