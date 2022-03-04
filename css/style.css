@@ -95,6 +95,20 @@ main {
     letter-spacing: 0.1rem;
 }
 
+.form-wrapper input {
+    height: 2rem;
+    border: 0.1rem solid #E5E7EB;
+}
+
+.form-wrapper input:focus {
+    outline: 0.1rem solid var(--main-color);
+    box-shadow: 0.4rem 0.4rem 6px #d8dadd;
+}
+
+.form-wrapper label {
+    padding-bottom: 0.2rem;
+}
+
 .form-header {
     font-size: 1.4rem;
     font-weight: bold;
@@ -107,6 +121,7 @@ main {
     width: 15rem;
     text-transform: uppercase;
     font-size: 0.8rem;
+    font-weight: bold;
 }
 
 .header-text,
@@ -117,6 +132,7 @@ main {
 
 .sign-up-form {
     background-color: white;
+    box-shadow: 0.4rem 0.4rem 6px #d8dadd;
 }
 
 #createAccBtn {
