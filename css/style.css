@@ -38,7 +38,6 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     width: max(350px, 30vw);
-    position: relative;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -46,8 +45,8 @@ main {
 }
 
 #logo-container {
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width: max(350px, 30vw);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,4 +87,14 @@ main {
     width: 15rem;
     text-transform: uppercase;
     font-size: 0.8rem;
+}
+
+.header-text,
+.sign-up-form,
+.button-area {
+    padding-left: 3vw;
+}
+
+.sign-up-form {
+    background-color: white;
 }
