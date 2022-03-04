@@ -75,3 +75,17 @@ main {
 #sidebar-footer a {
     color: var(--main-color);
 }
+
+.form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-left p,
+.form-right p {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
