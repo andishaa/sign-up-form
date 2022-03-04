@@ -98,3 +98,13 @@ main {
 .sign-up-form {
     background-color: white;
 }
+
+#createAccBtn {
+    padding: 0.9rem 3rem;
+    border-radius: 8px;
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    font-weight: bold;
+    margin-top: 3vh;
+}
