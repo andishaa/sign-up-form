@@ -45,12 +45,11 @@ main {
     width: max(300px, 30vw);
     display: flex;
     flex-shrink: 0;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #logo-container {
-    position: fixed;
     width: max(300px, 30vw);
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +61,8 @@ main {
     font-size: 4rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-top: calc(10rem + 5vh);
     gap: 1rem;
-    top: calc(10rem + 5vh);
 }
 
 #logo-container img {
@@ -74,7 +73,7 @@ main {
     font-size: 0.9rem;
     color: white;
     text-align: center;
-    padding-bottom: 1rem;
+    margin-bottom: 2vh;
 }
 
 a {
