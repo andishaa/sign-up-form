@@ -42,7 +42,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: max(350px, 30vw);
+    width: max(300px, 30vw);
     display: flex;
     flex-shrink: 0;
     justify-content: center;
@@ -51,8 +51,9 @@ main {
 
 #logo-container {
     position: fixed;
-    width: max(350px, 30vw);
+    width: max(300px, 30vw);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.6);
