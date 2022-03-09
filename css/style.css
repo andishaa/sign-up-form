@@ -168,10 +168,9 @@ form input:focus {
 }
 
 .container-footer {
-    position: absolute;
+    position: sticky;
     text-align: center;
-    bottom: 0;
-    width: 100%;
+    top: 100vh;
     padding: 0.5rem;
 }
 
